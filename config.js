@@ -20,7 +20,7 @@ const config = {
       type: "email",
       label: "Email",
       hoverLabel: "Copy",
-      buttonId: "button-6c5k7wq1t",
+      buttonId: "email-button",
       email: "stefan@nevin.se"
     },
     {
