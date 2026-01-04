@@ -1,0 +1,39 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="avatarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E040FB;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38BDF8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="innerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer glow effect -->
+  <circle cx="64" cy="64" r="62" fill="url(#avatarGradient)" opacity="0.3"/>
+  
+  <!-- Main background circle -->
+  <circle cx="64" cy="64" r="58" fill="url(#innerGradient)"/>
+  
+  <!-- Central monogram "SS" -->
+  <text x="64" y="80" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="48" font-weight="700" text-anchor="middle" fill="url(#avatarGradient)">SS</text>
+  
+  <!-- Subtle accent lines -->
+  <g opacity="0.4">
+    <line x1="20" y1="64" x2="30" y2="64" stroke="url(#avatarGradient)" stroke-width="2" stroke-linecap="round"/>
+    <line x1="98" y1="64" x2="108" y2="64" stroke="url(#avatarGradient)" stroke-width="2" stroke-linecap="round"/>
+    <line x1="64" y1="20" x2="64" y2="30" stroke="url(#avatarGradient)" stroke-width="2" stroke-linecap="round"/>
+    <line x1="64" y1="98" x2="64" y2="108" stroke="url(#avatarGradient)" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Corner accents -->
+  <g opacity="0.3">
+    <circle cx="25" cy="25" r="3" fill="url(#avatarGradient)"/>
+    <circle cx="103" cy="25" r="3" fill="url(#avatarGradient)"/>
+    <circle cx="25" cy="103" r="3" fill="url(#avatarGradient)"/>
+    <circle cx="103" cy="103" r="3" fill="url(#avatarGradient)"/>
+  </g>
+</svg>
