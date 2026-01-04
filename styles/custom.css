@@ -1,0 +1,22 @@
+/* Email copy button hover effect */
+.email-copy-button .email-hover-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+.email-copy-button:hover .email-text {
+  opacity: 0;
+}
+
+.email-copy-button:hover .email-hover-text {
+  opacity: 1;
+}
+
+.email-copy-button .email-text {
+  transition: opacity 0.2s;
+}
+
