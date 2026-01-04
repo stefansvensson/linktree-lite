@@ -19,7 +19,7 @@
   <circle cx="64" cy="64" r="58" fill="url(#innerGradient)"/>
   
   <!-- Central monogram "SS" -->
-  <text x="64" y="80" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="48" font-weight="700" text-anchor="middle" fill="url(#avatarGradient)">SS</text>
+  <text x="64" y="80" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="48" font-weight="700" text-anchor="middle" fill="url(#avatarGradient)">SS</text>
   
   <!-- Subtle accent lines -->
   <g opacity="0.4">
